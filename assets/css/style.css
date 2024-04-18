@@ -139,12 +139,14 @@
       }
       100%
       {
-        transform:scale(1);
+        transform: scale(1);
       }
     }
+
     .btn-default{
       color: #fff;
       vertical-align: middle;
+      display: inline-block;
       background-color: var(--color-primary);
       transform: perspective(1px) translateZ(0);
     }
@@ -153,7 +155,7 @@
       animation-name: button-push;
       animation-duration: 0.3s;
       animation-timing-function: linear;
-      animation-timing-function: 1;
+      animation-iteration-count: 1;
     }
     
     /*========== Header ==========*/
@@ -262,7 +264,6 @@
     {
       max-width: 540px;
       text-align: center;
-      position: relative;
 
     }
 
