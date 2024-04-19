@@ -302,6 +302,45 @@
       max-width: 100px;
       text-align: center;
     }
+    @keyframes ani-mouse {
+      0%{
+        top: 29%;
+      }
+      15%{
+        top: 50%;
+      }
+      50%{
+        top: 50%;
+      }
+      100%{
+        top: 29%;
+      }
+
+      
+    }
+    .mouse{
+      border : 2px solid var(--color-dark);
+      display: block;
+      height: 1.75rem;
+      width: 1.25rem;
+      margin: auto;
+      margin-top: var(--m-0-75);
+      border-radius: var(--border-radius);
+      position: relative;
+
+    }
+    .mouse .wheel
+    {
+      background-color: var(--color-dark);
+      border-radius: 50%;
+      width: 0.25rem;
+      height: 0.25rem;
+      position: absolute;
+      top: var(--m-0-5);
+      left: 40%;
+      display: block;
+      animation: ani-mouse 2s linear infinite;
+    }
     
     
     /*========== About ==========*/
