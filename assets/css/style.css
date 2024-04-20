@@ -432,9 +432,19 @@
       color: var(--color-gray);
     }
     
-    /*========== Services ==========*/
-    
     /*========== Experience ==========*/
+    .education
+    {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+    .internship
+    {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+    
+    /*========== Things I can Do ==========*/
     
     /*========== Pricing ==========*/
     
