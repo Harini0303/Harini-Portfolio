@@ -414,6 +414,23 @@
       height: 100%;
       border-radius: var(--border-radius);
     }
+    .about-content .skills .skill-item .skill-percent
+    {
+      position: absolute;
+      right: 0;
+      top: -2.25rem;
+    }
+    .fact-item
+    {
+      flex: 0 0 25%;
+      max-width: 25%;
+      margin-top: var(--m-2-5);
+      text-align: center;
+    }
+    .fact-item i{
+      font-size: var(--h2-font-size);
+      color: var(--color-gray);
+    }
     
     /*========== Services ==========*/
     
