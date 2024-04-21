@@ -658,11 +658,40 @@
     }
 
     
-    /*========== Testimonial ==========*/
+   /*========== Contact ==========*/
+    .contact-content{
+      padding: 100px 0;
+      color: #fff;
+      text-align: center;
+    }
+    .contact-content .contact-title h4{
+      font-size: 2.25rem;
+      color: var(--color-dark);
+      padding-bottom: 10px;
+    }
+    .contact-content .contact-title p{
+      padding-bottom: 20px;
+      color: var(--color-dark);
+    }
+    .contact{
+      max-width: 700px;
+      margin: auto;
+    }
+    .contact input,.contact textarea{
+      width: 100%;
+      padding: 15px;
+      border: 0;
+      margin-bottom: 10px;
+    }
     
-    /*========== Blog ==========*/
-    
-    /*========== Contact ==========*/
+   
+    #msg{
+      color: #fff;
+      font-size: 20px;
+      margin-top: -8px;
+      display: block;
+    }
+ 
     
     /*========== Footer ==========*/
     
