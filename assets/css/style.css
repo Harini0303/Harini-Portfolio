@@ -660,7 +660,7 @@
 
    /*========== Contact ==========*/
     .contact-content{
-      /* padding: 100px 0; */
+      padding-bottom: 80px;
       color: #fff;
       text-align: center;
     }
@@ -694,6 +694,45 @@
  
     
     /*========== Footer ==========*/
+    .footer {
+      background-color: #000000; /* Change background color to black */
+      color: var(--color-white); /* Change text color to white */
+      padding: 20px 0;
+  }
+  
+  .footer-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  
+  .center-content {
+      text-align: center; /* Center the content */
+  }
+  
+  .social-icons ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+  }
+  
+  .social-icons ul li {
+      display: inline-block;
+      margin-left: 10px; /* Adjust spacing */
+  }
+  
+  .social-icons ul li:first-child {
+      margin-left: 0; /* Remove margin for the first icon */
+  }
+  
+  .social-icons ul li a {
+      color: var(--color-white); /* Change icon color to white */
+  }
+  
+  .heart {
+      color: red;
+  }
+  
     
     /*========== Customize Theme ==========*/
     
