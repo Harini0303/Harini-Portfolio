@@ -72,6 +72,9 @@
       padding: 0;
       box-sizing: border-box;
     }
+    html{
+      scroll-behavior: smooth;
+    }
 
     body,
     button,
@@ -284,6 +287,10 @@
       height: 0.3rem;
       background-color: var(--color-primary);
       border-radius: 50%;
+    }
+    .scroll-header
+    {
+      box-shadow: 0 1px 4px rgba(165, 125, 125, 0.02);
     }
     
     /*========== Home ==========*/
@@ -578,6 +585,7 @@
       margin: 0 var(--m-0-75);
       cursor: pointer;
       white-space: nowrap;
+      color: var(--color-dark);
       transition: 0.3s;
 
 
@@ -862,7 +870,7 @@
     }
     .customize-theme .choose-color span:nth-child(5)
     {
-      background: hsl(252, 75%, 60%);
+      background: hsl(183, 81%, 50%);
     }
 
     .customize-theme .choose-color span.active 
@@ -900,8 +908,8 @@
 
     .customize-theme .choose-bg .bg-1
     {
-      background: var(--color-light);
-      color: var(--color-dark);
+      background: hsl(252, 30%, 92%);
+      color: hsl(252, 30%, 17%);
     }
 
     .customize-theme .choose-bg .bg-2
