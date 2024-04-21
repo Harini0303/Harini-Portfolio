@@ -612,6 +612,28 @@
       max-width: 33.33%;
       margin-bottom: var(--m-1-5);
     }
+
+    .project-item.hide
+    {
+      display: none;
+    }
+    .project-item.show
+    {
+      display: block;
+      animation: showItem 0.5s ease;
+    }
+    @keyframes showItem
+    {
+      0%
+      {
+        transform: calc(0.6);
+        opacity: 0;
+      }
+      100%{
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
     .project-item-inner
     {
       position: relative;
