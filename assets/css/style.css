@@ -657,10 +657,10 @@
       transform: translateY(0);
     }
 
-    
+
    /*========== Contact ==========*/
     .contact-content{
-      padding: 100px 0;
+      /* padding: 100px 0; */
       color: #fff;
       text-align: center;
     }
@@ -686,7 +686,7 @@
     
    
     #msg{
-      color: #fff;
+      color: var(--color-white);
       font-size: 20px;
       margin-top: -8px;
       display: block;
