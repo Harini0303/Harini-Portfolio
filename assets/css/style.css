@@ -541,9 +541,30 @@
       color: var(--color-primary);
     }
     
-    /*========== Pricing ==========*/
-    
     /*========== Portfolio ==========*/
+    .project .project-filter
+    {
+      flex: 0 0 100%;
+      max-width: 100%;
+      text-align: center;
+    }
+    .project .project-filter button
+    {
+      border: none;
+      background-color: transparent;
+      font-weight: var(--font-semi-bold);
+      text-transform: capitalize;
+      margin: 0 var(--m-0-75);
+      cursor: pointer;
+      white-space: nowrap;
+      transition: 0.3s;
+
+
+    }
+    .project .project-filter button.active
+    {
+      color: var(--color-primary);
+    }
     
     /*========== Testimonial ==========*/
     
