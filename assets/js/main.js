@@ -224,3 +224,36 @@ Bg3.addEventListener('click' , () => {
     Bg1.classList.remove('active');
     changeBG();
 })
+
+const form = document.querySelector('.form');
+function sendEmail(){
+    // console.log("hello");
+    const name = document.getElementById('name');
+    const from = document.getElementById('em')
+    const sub = document.querySelector("#sub");
+    const msg = document.querySelector(".message").value;
+    // console.log(msg);
+
+    const fullMsg = `Full Name : ${name.value} <br> Email : ${from.value} <br> Subject : ${sub.value} <br> Message : ${msg}`
+    
+
+    Email.send({
+        Host : "smtp.elasticemail.com",
+        Username : "harinisree333@gmail.com",
+        Password : "39F88909B60DB4EB6BD4D96FCCB7C71F1DEE",
+        To : 'harinisree333@gmail.com',
+        From : 'harinisree333@gmail.com',
+        Subject : sub.value,
+        Body : fullMsg
+    }).then(
+      message => alert(message)
+    )
+    .catch((err)=>console.log(err))
+}
+
+
+form.addEventListener(('submit'),(e)=>{
+    e.preventDefault();
+    
+    sendEmail();
+})
